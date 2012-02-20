@@ -135,15 +135,15 @@ window.onload = function() {
 	
     //now, create a new image and set it's src
     var image = new Image();
-    image.src = 'http://localhost:8888/git/Media-Query-test/images/test7.png?' + suffix;
+    image.src = 'https://github.com/robflaherty/Media-Query-test/raw/matchmedia/images/test7.png?' + suffix;
     
     if (image.complete) {
-        target.innerHTML += "<p class='load'>http://timkadlec.com/mq/images/test7.png?" + suffix + " has loaded.</p>";
+        target.innerHTML += "<p class='load'>https://github.com/robflaherty/Media-Query-test/raw/matchmedia/images/test7.png?" + suffix + " has loaded.</p>";
         //save the result for Browserscope
         _bTestResults['Loaded'] = 1;
         
     } else {
-        target.innerHTML += "<p class='noload'>http://timkadlec.com/mq/images/test7.png?" + suffix + " has not loaded.</p>";
+        target.innerHTML += "<p class='noload'>https://github.com/robflaherty/Media-Query-test/raw/matchmedia/images/test7.png?" + suffix + " has not loaded.</p>";
         //save the result for Browserscope
         _bTestResults['Loaded'] = 0;
         
