@@ -18,4 +18,7 @@
     <li>
         <a href="test6.php">Test Six: Background Image Display None (max-device-width)</a>
     </li>
+    <li>
+        <a href="test7.php">Test Seven: Image Tag using window.matchMedia</a>
+    </li>    
 </ul>
